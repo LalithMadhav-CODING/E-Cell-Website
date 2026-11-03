@@ -454,6 +454,10 @@
          font-size: .85rem
       }
 
+      .dg .cap {
+         display: none
+      }
+
       .ph-note {
          font-size: .75rem;
          color: var(--sap)
@@ -614,13 +618,14 @@
 
       .dg {
          display: grid;
-         grid-template-columns: repeat(6, 1fr);
-         gap: 14px;
-         width: min(1300px, 94vw)
+         grid-template-columns: repeat(5, minmax(180px, 1fr));
+         gap: 18px;
+         width: min(1200px, 94vw)
       }
 
       .dg .ph {
-         aspect-ratio: 1
+         aspect-ratio: 4/5;
+         min-height: 330px
       }
 
       .dg .cap {
@@ -941,44 +946,44 @@
             { name: "Vikas Reddy", role: "Executive Member", img: "Assets/Members/Executive/vikas.jpg" },
             { name: "Harshita Karnam", role: "Executive Member", img: "Assets/Members/Executive/exc harshita.jpg" },
             { name: "Aditya Srujn", role: "Executive Member", img: "Assets/Members/Executive/exec yr2.jpg" },
-            { name: "Navajyoth", role: "Executive Member", img: "Assets/Members/Executive/exec yr2.jpg" }
+            { name: "Navajyoth", role: "Executive Member", img: "Assets/Members/Executive/navajyoth.jpg" }
          ],
          // Rename domains / members here.
          domains: [
             { name: "Management", members: [
-               { name: "Onkar", role: "Management Member", img: "" },
-               { name: "Avinash Bolisetty", role: "Management Member", img: "" },
-               { name: "Yasaswiran Yarramaneni", role: "Management Member", img: "" },
-               { name: "SHAIK MOHAMMED RAIYAN WASI", role: "Management Member", img: "" },
-               { name: "Charanjith S", role: "Management Member", img: "" }
+               { name: "Onkar", role: "Management Member", img: "Assets/Members/DSC_0145.jpg" },
+               { name: "Avinash Bolisetty", role: "Management Member", img: "Assets/Members/DSC_0152.jpg" },
+               { name: "Yasaswiran Yarramaneni", role: "Management Member", img: "Assets/Members/DSC_6145.JPG" },
+               { name: "SHAIK MOHAMMED RAIYAN WASI", role: "Management Member", img: "Assets/Members/DSC_6157.JPG" },
+               { name: "Charanjith S", role: "Management Member", img: "Assets/Members/DSC_6159.JPG" }
             ] },
             { name: "Tech", members: [
                { name: "Lalith Madhav", role: "Tech Member", img: "Assets/Members/Tech/DSC_6259.jpg" },
                { name: "Tholkappian Murugesan", role: "Tech Member", img: "Assets/Members/Tech/DSC_6162.jpg" },
-               { name: "Greeshma Reddy Meda", role: "Tech Member", img: "" }
+               { name: "Greeshma Reddy Meda", role: "Tech Member", img: "Assets/Members/DSC_6179.jpg" }
             ] },
             { name: "Graphics", members: [
-               { name: "Karthikeyan P", role: "Graphics Member", img: "" },
-               { name: "P M Abhinav", role: "Graphics Member", img: "" },
-               { name: "G Harish", role: "Graphics Member", img: "" },
-               { name: "Acharya N", role: "Graphics Member", img: "" },
-               { name: "E Sai Aneesh", role: "Graphics Member", img: "" }
+               { name: "Karthikeyan P", role: "Graphics Member", img: "Assets/Members/DSC_6205.jpg" },
+               { name: "P M Abhinav", role: "Graphics Member", img: "Assets/Members/DSC_6212.jpg" },
+               { name: "G Harish", role: "Graphics Member", img: "Assets/Members/DSC_6217.jpg" },
+               { name: "Acharya N", role: "Graphics Member", img: "Assets/Members/DSC_6231.JPG" },
+               { name: "E Sai Aneesh", role: "Graphics Member", img: "Assets/Members/DSC_6235.jpg" }
             ] },
             { name: "Operations", members: [
-               { name: "Arohi Gattewar", role: "Operations Member", img: "" },
-               { name: "Krishmitha", role: "Operations Member", img: "" },
-               { name: "Akash Seethapalli", role: "Operations Member", img: "" },
-               { name: "Andru Ashwin", role: "Operations Member", img: "" },
-               { name: "Bagam Sairam", role: "Operations Member", img: "" },
-               { name: "Kothur Hanifa Banu", role: "Operations Member", img: "" }
+               { name: "Arohi Gattewar", role: "Operations Member", img: "Assets/Members/DSC_6249.jpg" },
+               { name: "Krishmitha", role: "Operations Member", img: "Assets/Members/DSC_6265.jpg" },
+               { name: "Akash Seethapalli", role: "Operations Member", img: "Assets/Members/DSC_6270.jpg" },
+               { name: "Andru Ashwin", role: "Operations Member", img: "Assets/Members/DSC_6301.jpg" },
+               { name: "Bagam Sairam", role: "Operations Member", img: "Assets/Members/DSC_6187.jpg" },
+               { name: "Kothur Hanifa Banu", role: "Operations Member", img: "Assets/Members/DSC_6192.jpg" }
             ] },
             { name: "Executive", members: [
-               { name: "Vijay Krishna", role: "Executive Member", img: "" },
-               { name: "Vikhyat Gupta", role: "Executive Member", img: "" },
-               { name: "Stalin Velayudham N", role: "Executive Member", img: "" },
-               { name: "Atharva Amar Mankal", role: "Executive Member", img: "" },
-               { name: "Saud bin Abdul Mutallib", role: "Executive Member", img: "" },
-               { name: "P Mahith", role: "Executive Member", img: "" }
+               { name: "Vijay Krishna", role: "Executive Member", img: "Assets/Members/Executive/vikas.jpg" },
+               { name: "Vikhyat Gupta", role: "Executive Member", img: "Assets/Members/Executive/exc harshita.jpg" },
+               { name: "Stalin Velayudham N", role: "Executive Member", img: "Assets/Members/Executive/exec yr2.jpg" },
+               { name: "Atharva Amar Mankal", role: "Executive Member", img: "Assets/Members/Executive/navajyoth.jpg" },
+               { name: "Saud bin Abdul Mutallib", role: "Executive Member", img: "Assets/Members/Executive/vikas.jpg" },
+               { name: "P Mahith", role: "Executive Member", img: "Assets/Members/Executive/exc harshita.jpg" }
             ] }
          ]
       };
@@ -989,6 +994,7 @@
       const NAV = [["home", "Home"], ["about", "About"], ["events", "Events"], ["team", "Team"], ["contact", "Contact Us"]];
       const P = (i) => i || CFG.profile;
       const portrait = (m, id) => `<div class="cw rv" ${id ? `id="${id}"` : ''} style="--d:var(--dd)"><div class="card tilt"><div class="ph"><img src="${P(m.img)}" alt="${m.name}"${m.img ? ' class="real"' : ''} loading="lazy"></div><div class="cap"><b>${m.name}</b><span>${m.role}</span></div></div></div>`;
+      const domainPortrait = (m, id) => `<div class="cw rv" ${id ? `id="${id}"` : ''} style="--d:var(--dd)"><div class="card tilt"><div class="ph"><img src="${P(m.img)}" alt="${m.name}"${m.img ? ' class="real"' : ''} loading="lazy"></div></div></div>`;
       // build
       $$('img[data-a]').forEach(i => i.src = CFG[i.dataset.a]);
       $$('.links').forEach(u => u.innerHTML = NAV.map(([id, t]) => `<li><a href="#${id}" data-s="${id}">${t}</a></li>`).join(''));
@@ -998,7 +1004,7 @@
       $('#coord').innerHTML = portrait(CFG.coordinator, 'coord').replace('var(--dd)', '0s');
       const LEADS = [['coord', CFG.coordinator], ...CFG.execs.map((m, i) => ['ex' + i, m])];
       $('#exec').innerHTML = CFG.execs.map((m, i) => portrait(m, 'ex' + i).replace('var(--dd)', (i * .1) + 's')).join('');
-      $('#dtrack').innerHTML = CFG.domains.map((d, i) => `<article class="dp" aria-label="${d.name}"><h3>${d.name}</h3><p class="led">Led by <a href="#${LEADS[i][0]}" data-lead="${LEADS[i][0]}">${LEADS[i][1].name}</a></p><div class="dg">${d.members.map((m, k) => portrait(m).replace('var(--dd)', (.25 + k * .1) + 's')).join('')}</div></article>`).join('');
+      $('#dtrack').innerHTML = CFG.domains.map((d, i) => `<article class="dp" aria-label="${d.name}"><h3>${d.name}</h3><p class="led">Led by <a href="#${LEADS[i][0]}" data-lead="${LEADS[i][0]}">${LEADS[i][1].name}</a></p><div class="dg">${d.members.map((m, k) => domainPortrait(m).replace('var(--dd)', (.25 + k * .1) + 's')).join('')}</div></article>`).join('');
       const mail = $('#mail'); mail.href = 'mailto:' + CFG.email; mail.textContent = CFG.email;
       $('#copy').onclick = async e => { const b = e.currentTarget; try { await navigator.clipboard.writeText(CFG.email) } catch (_) { const t = document.createElement('textarea'); t.value = CFG.email; document.body.append(t); t.select(); try { document.execCommand('copy') } catch (_) { } t.remove() } b.textContent = 'Copied'; setTimeout(() => b.textContent = 'Copy email', 1800) };
       addEventListener('error', e => { const i = e.target; if (i && i.tagName === 'IMG' && !i.dataset.f) { i.dataset.f = 1; i.src = CFG.profile || ph('Missing') } }, true);
